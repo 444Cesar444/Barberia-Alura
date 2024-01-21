@@ -1,3 +1,48 @@
+/*Estos es un selector de etiquetas*/
+body {
+    background-color: aqua;
+}
+
+#imagen {}
+
+.principal {}
+
+.Titulo-01 {
+    text-align: justify;
+    padding-left: 30px;
+}
+
+.Titulo-02 {
+    text-align: center
+}
+
 p {
     text-align: center;
+}
+
+em strong {
+    color: blue;
+}
+
+#mision {
+    font-size: 20px;
+    text-align: center;
+}
+
+.diferenciales {
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+/*Accediendo a la clase*/
+.items {
+    font-style: italic;
+    vertical-align: top;
+
+}
+
+ul {
+    display: inline-block;
+    width: 25%;
+    margin-right: 15%;
 }
