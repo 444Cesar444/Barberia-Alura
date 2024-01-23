@@ -1,18 +1,25 @@
 /*Estos es un selector de etiquetas*/
+
 body {
-    background-color: aqua;
+    background-color: #FFFFFF;
 }
 
-#imagen {}
 
-.principal {}
-
-.Titulo-01 {
-    text-align: justify;
-    padding-left: 30px;
+#imagen01 {
+    width: 100%;
 }
 
-.Titulo-02 {
+.principal {
+    background-color: #7B68EE;
+    padding: 20px;
+}
+
+
+.titulo-01 {
+    text-align: center;
+}
+
+.titulo-02 {
     text-align: center
 }
 
@@ -21,28 +28,30 @@ p {
 }
 
 em strong {
-    color: blue;
+    color: #DC143C;
 }
 
 #mision {
     font-size: 20px;
-    text-align: center;
 }
 
 .diferenciales {
     background-color: aliceblue;
-    padding: 5px;
+    padding: 30px;
 }
 
 /*Accediendo a la clase*/
 .items {
     font-style: italic;
-    vertical-align: top;
-
 }
 
 ul {
     display: inline-block;
-    width: 25%;
+    vertical-align: top;
+    width: 20%;
     margin-right: 15%;
+}
+
+.imagenDiferencial {
+    width: 50%;
 }
