@@ -1,0 +1,129 @@
+header {
+    background-color: #7d8597;
+    padding: 20px 0;
+}
+
+.caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+/*Posicionamiento de los elementos*/
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    /*Retira la linea de las palabras*/
+}
+
+/*Captura el movimieto y cambia el color*/
+nav a:hover {
+    color: #f72585;
+    text-decoration: underline;
+}
+
+.productos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    /*background-color:;*/
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+/*Capturando eventos*/
+.productos li:hover {
+    border-color: #ccff33;
+}
+
+.productos li:hover h2 {
+    font-size: 33px;
+}
+
+.productos li:active {
+    border-color: #f72585;
+}
+
+.productos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.producto-descripcion {
+    font-size: 18px;
+}
+
+.producto-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    /*Utilizando una imagen como background*/
+    background: url(/img/bg.jpg);
+    padding: 40px;
+}
+
+.copy {
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+form {
+    /*up & down (40) right & left (0) */
+    margin: 40px 0;
+}
+
+form label,
+form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+/*Aplicando el midmo estilo*/
+input-padron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}

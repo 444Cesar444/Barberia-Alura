@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="/reset/reset.css"> <!--Eliminando configuraciones default-->
+    <link rel="stylesheet" href="/css/style-contacto.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="caja">
+            <!--Encabezado-->
+            <h1><img src="/img/logo.png" alt=""></h1>
+
+            <!--Etiqueta de navegación <nav>  -->
+            <nav>
+                <!--Crando lista-->
+                <ul>
+                    <!--Creando vinculos a otras paginas <a>  -->
+                    <li><a href="/page/index.html">Home</a></li>
+                    <li><a href="/page/productos.html">Productos</a></li>
+                    <li><a href="">Contactos</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+        <form action="">
+            <!--Se esta relacionando <label> con la caja de texto <input> -->
+            <label for="nombre-apellido">Nombre & Apellido</label>
+            <input class="input-padron" type="text" id="nombre-apellido">
+
+            <label for="correo">Email</label>
+            <input class="input-padron" type="email" id="correo">
+
+            <label for="telefono">Telefono</label>
+            <input class="input-padron" type="tel" id="telefono">
+
+            <!--Construyendo el cuadro de texto para mensajes-->
+            <label for="mensaje">Mensaje</label>
+            <textarea class="input-padron" name=" " id="mensaje" cols="70" rows="10"></textarea>
+
+            <div> <!--Separando contenidos con <div> -->
+                <p>¿Como te gustaria que te contactemos?</p>
+
+                <!--(name) indica que pertenecen al mismo grupo de elementos-->
+                <label for="radio-email"><input type="radio" name="contacto" value="email"
+                        id="radio-email">Email</label>
+
+
+                <label for="radio-telefono"><input type="radio" name="contacto" value="telefono"
+                        id="radio-telefono">Telefono</label>
+
+
+                <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp"
+                        id="radio-whatsapp">WhatsApp</label>
+
+            </div>
+
+            <div> <!--List down-->
+                <p>Horario de su preferencia</p>
+                <select name="" id="">
+                    <option value="">Mañana</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noche</option>
+                </select>
+            </div>
+
+            <label class="checkbox" for=""><input type="checkbox">Quiere recibir novedades</label>
+            <input type="submit" value="Enviar">
+
+        </form>
+
+    </main>
+    <!--Pie de pagina-->
+    <footer>
+        <img src="/img/logo-blanco.png" alt="">
+        <p class="copy">&copy Copyright Barberia Alura 2020</p>
+    </footer>
+</body>
+
+</html>
