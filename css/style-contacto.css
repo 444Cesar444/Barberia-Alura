@@ -110,7 +110,7 @@ form {
 }
 
 form label,
-form p {
+form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -126,4 +126,30 @@ input-padron {
 
 .checkbox{
     margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f72585;
+    background: #ccff33;
+    border: none;
+    border-radius: 5px;
+
+    /*Cambio lento de color*/
+    transition: 1s all;
+    
+
+    /*Cambiando el tipo de cursor*/
+    cursor: pointer;
+}
+
+/*Cambiando el fondo de color*/
+.enviar:hover{
+    background:  black;
+
+    /*Cambia de tamaño el boton*/
+    transform: scale(1.20);
 }
