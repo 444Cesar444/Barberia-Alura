@@ -21,6 +21,10 @@ nav li {
     margin: 0 0 0 15px;
 }
 
+/*
+Modifica las Caracteristicas
+del encabezado
+*/
 nav a {
     text-transform: uppercase;
     color: black;
@@ -30,7 +34,10 @@ nav a {
     /*Retira la linea de las palabras*/
 }
 
-/*Captura el movimieto y cambia el color*/
+/*
+Captura el movimieto y cambia el color
+Titulos del Encabezado
+*/
 nav a:hover {
     color: #f72585;
     text-decoration: underline;
@@ -85,6 +92,7 @@ nav a:hover {
     margin-top: 10px;
 }
 
+/*Aplicando caracteristicas del pie de pagina*/
 footer {
     text-align: center;
     /*Utilizando una imagen como background*/
@@ -92,6 +100,7 @@ footer {
     padding: 40px;
 }
 
+/*Clase de pie de pagina*/
 .copy {
     color: white;
     font-size: 13px;

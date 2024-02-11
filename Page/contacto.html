@@ -11,6 +11,7 @@
 
 <body>
 
+    <!--Encabezado-->
     <header>
         <div class="caja">
             <!--Encabezado-->
@@ -23,13 +24,14 @@
                     <!--Creando vinculos a otras paginas <a>  -->
                     <li><a href="/page/index.html">Home</a></li>
                     <li><a href="/page/productos.html">Productos</a></li>
-                    <li><a href="">Contactos</a></li>
+                    <li><a href="/page/contacto.html">Contactos</a></li>
                 </ul>
             </nav>
 
         </div>
     </header>
 
+    <!--Formulario-->
     <main>
         <form action="">
             <!--Se esta relacionando <label> con la caja de texto <input> -->
@@ -61,9 +63,9 @@
 
                 <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp"
                         checked>WhatsApp</label>
-
             </fieldset>
 
+            <!--Box de opciones-->
             <fieldset> <!--List down-->
                 <legend>Horario de su preferencia</legend>
                 <select name="" id="">
@@ -78,10 +80,34 @@
 
             <!--Boton-->
             <input class="enviar" type="submit" value="Enviar">
-
         </form>
 
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horario</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Miercoles</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+            </tbody>
+        </table>
+
     </main>
+
     <!--Pie de pagina-->
     <footer>
         <img src="/img/logo-blanco.png" alt="Imagen pie de pagina">

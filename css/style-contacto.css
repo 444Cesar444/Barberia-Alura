@@ -1,5 +1,5 @@
 header {
-    background-color: #7d8597;
+    background-color: #ffff3f;
     padding: 20px 0;
 }
 
@@ -36,68 +36,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.productos {
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px;
-}
-
-.productos li {
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    /*background-color:;*/
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 10px;
-}
-
-/*Capturando eventos*/
-.productos li:hover {
-    border-color: #ccff33;
-}
-
-.productos li:hover h2 {
-    font-size: 33px;
-}
-
-.productos li:active {
-    border-color: #f72585;
-}
-
-.productos h2 {
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.producto-descripcion {
-    font-size: 18px;
-}
-
-.producto-precio {
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-footer {
-    text-align: center;
-    /*Utilizando una imagen como background*/
-    background: url(/img/bg.jpg);
-    padding: 40px;
-}
-
-.copy {
-    color: white;
-    font-size: 13px;
-    margin: 20px;
-}
-
 main {
     width: 940px;
     margin: 0 auto;
@@ -124,11 +62,11 @@ input-padron {
     width: 50%;
 }
 
-.checkbox{
+.checkbox {
     margin: 20px 0;
 }
 
-.enviar{
+.enviar {
     width: 40%;
     padding: 15px 0;
     font-size: 18px;
@@ -140,16 +78,51 @@ input-padron {
 
     /*Cambio lento de color*/
     transition: 1s all;
-    
+
 
     /*Cambiando el tipo de cursor*/
     cursor: pointer;
 }
 
 /*Cambiando el fondo de color*/
-.enviar:hover{
-    background:  black;
+.enviar:hover {
+    background: black;
 
     /*Cambia de tamaño el boton*/
     transform: scale(1.20);
+}
+
+table {
+    /*Ajustando margen altura & costados*/
+    margin: 40px 40px;
+
+}
+
+thead {
+    /*Cambiando el fondo y color de la letra*/
+    background: #7d8597;
+    color: white;
+    font-weight: bold;
+}
+
+td,
+th {
+    /*Aplicando bordes*/
+    border: 3px solid #7d8597;
+
+    /*Espacio interno (altura & costados)*/
+    padding: 8px 15px;
+}
+
+footer {
+    text-align: center;
+    /*Utilizando una imagen como background*/
+    background: url(/img/bg.jpg);
+    padding: 40px;
+}
+
+.copy {
+    color: white;
+    font-size: 13px;
+    margin: 10px;
 }
